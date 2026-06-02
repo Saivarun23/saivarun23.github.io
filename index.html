@@ -1,107 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Sai Varun Nimmagadda | Data Science Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #ffffff;
+{
+  "basics": {
+    "name": "Sai Varun Nimmagadda",
+    "label": "AI/ML Engineer • Data Scientist",
+    "email": "saivarun.nimmagadda@gmail.com",
+    "phone": "+1 (410) 868-2333",
+    "location": "Baltimore, MD",
+    "linkedin": "linkedin.com/in/saivarun-nimmagadda",
+    "summary": "AI/ML Engineer and Data Scientist with 3+ years of hands-on experience building end-to-end machine learning pipelines, NLP systems, and real-time data architectures. M.S. in Data Science (GPA: 4.0, UMBC, Dec 2025) with published IEEE research and production-grade deployment experience on AWS and Azure. Proven ability to ship AI/ML solutions using Python, FastAPI, LLMs, and cloud platforms in both industry and academic settings."
+  },
+  "skills": [
+    { "category": "Languages", "items": ["Python", "R", "SQL", "T-SQL"] },
+    { "category": "AI / ML / DL", "items": ["Machine Learning", "Deep Learning", "CNNs", "Autoencoders", "Vision Transformers", "GANs", "Scikit-learn", "TensorFlow", "PyTorch"] },
+    { "category": "NLP / LLMs", "items": ["Natural Language Processing", "Large Language Models (LLMs)", "Generative AI", "Hugging Face Transformers", "LangChain", "Prompt Engineering"] },
+    { "category": "APIs & Deployment", "items": ["FastAPI", "Flask", "RESTful API Design", "Model Serving", "Docker", "CI/CD"] },
+    { "category": "Big Data", "items": ["Apache Spark", "Apache Flink", "Hadoop", "PySpark", "Databricks"] },
+    { "category": "Cloud & Databases", "items": ["AWS (S3, EC2, Lambda)", "Azure", "GCP", "MongoDB", "SQL Server (SSMS)", "NoSQL"] },
+    { "category": "Visualization & Tools", "items": ["Tableau", "Power BI", "Matplotlib", "Seaborn", "Git", "Jupyter Notebook", "VS Code"] }
+  ],
+  "experience": [
+    {
+      "company": "WikiCharities",
+      "role": "AI Engineer Intern",
+      "location": "Remote",
+      "dates": "Mar 2026 – Present",
+      "bullets": [
+        "Designing AI-powered guidance systems to help nonprofits improve impact assessment using NLP-driven prompts and real-time input validation.",
+        "Building NLP pipelines to analyze nonprofit mission statements and auto-generate Theory of Change (ToC) frameworks aligned with the Quantifiable Theory of Change (QToC) model.",
+        "Developing and deploying ML models that map nonprofit activities to standardized impact metrics, integrated with the WikiCharities database via RESTful API endpoints.",
+        "Applying LLMs and probabilistic modeling for outcome prediction, evidence-based recommendations, and automated data validation workflows.",
+        "Building interactive visualizations that surface logic model dependencies and pathway probabilities for nonprofit stakeholders."
+      ]
+    },
+    {
+      "company": "Skyworks Solutions",
+      "role": "AI Engineering Co-Op",
+      "location": "Woburn, MA",
+      "dates": "Jun 2024 – Dec 2024",
+      "bullets": [
+        "Designed, developed, and deployed AI/ML models via RESTful endpoints using FastAPI and Flask, integrating generative AI and NLP systems into internal production services.",
+        "Built full-stack AI product integrations connecting backend model-serving APIs with front-end components for internal tooling and analytics dashboards.",
+        "Leveraged AWS and Azure to manage cloud data pipelines, model deployments, and database interactions for operational data workflows.",
+        "Designed scalable Python backend services covering the full AI project lifecycle — from data ingestion through model inference and business reporting."
+      ]
+    },
+    {
+      "company": "UMBC",
+      "role": "Graduate Teaching Assistant",
+      "location": "Baltimore, MD",
+      "dates": "Aug 2025 – Dec 2025",
+      "bullets": [
+        "Supported DATA 602 (Data Analysis & Machine Learning) and DATA 603 (Big Data Processing) for 60+ graduate students; designed course materials, graded assessments, and delivered 1-on-1 mentorship on ML algorithms and Apache Spark workflows."
+      ]
+    },
+    {
+      "company": "Integrated Cleanroom Technologies Limited",
+      "role": "AI/ML Engineer",
+      "location": "Hyderabad, India",
+      "dates": "Feb 2023 – Jan 2024",
+      "bullets": [
+        "Engineered and deployed ML models to optimize operational efficiency in cleanroom manufacturing, enabling data-driven process improvements across production lines.",
+        "Built real-time data pipelines using Apache Flink and AWS; developed Power BI dashboards for KPI visualization; automated ETL workflows, reducing manual processing time by 30%.",
+        "Designed and maintained RESTful API integrations connecting ML model outputs with downstream business intelligence platforms."
+      ]
+    },
+    {
+      "company": "SRM University, AP",
+      "role": "Machine Learning Researcher",
+      "location": "Amaravati, India",
+      "dates": "Dec 2022 – Jan 2024",
+      "bullets": [
+        "Led deep learning research on UAV-based plant disease detection, achieving 95.09% accuracy on corn and 94% accuracy on wheat datasets using Fully Convolutional AutoEncoder and CNN architectures.",
+        "Published 3 peer-reviewed IEEE conference papers; led two cross-functional research teams (4+ members each) from data acquisition through model development and publication."
+      ]
     }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 60px 20px;
-      text-align: center;
+  ],
+  "publications": [
+    {
+      "title": "Deep Learning Based Techniques for Corn Plant Disease Detection Using UAV Imagery",
+      "conference": "15th IEEE ICCCNT 2024",
+      "doi": "10.1109/ICCCNT61001.2024.10725650",
+      "desc": "Developed a Fully Convolutional AutoEncoder, Vision Transformer, and CNN ensemble; AutoEncoder achieved 95.09% accuracy."
+    },
+    {
+      "title": "Analysis of Wheat Plant Disease Detection Using Deep Learning Techniques on Real-Time UAV Images",
+      "conference": "16th IEEE CICN 2024",
+      "desc": "Applied CNN-based deep learning on real-time drone-captured wheat imagery; achieved 94% accuracy."
+    },
+    {
+      "title": "Wheat Plant Disease Detection Using CNN on Real-Time UAV Images",
+      "conference": "15th IEEE CICN 2023",
+      "desc": "Established baseline CNN architecture and UAV data collection methodology, covering full pipeline from acquisition to deployment."
     }
-
-    h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-weight: normal;
-      color: #cbd5e1;
-      margin-bottom: 30px;
-    }
-
-    .card {
-      background: #1e293b;
-      padding: 30px;
-      border-radius: 12px;
-      margin-top: 30px;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
-      background: #3b82f6;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 16px;
-    }
-
-    .btn:hover {
-      background: #2563eb;
-    }
-
-    .links {
-      margin-top: 40px;
-    }
-
-    .links a {
-      color: #93c5fd;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-
-    .links a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      margin-top: 60px;
-      color: #64748b;
-      font-size: 14px;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <h1>Sai Varun Nimmagadda</h1>
-    <h2>AI/ML Engineer | Big data & Analytics | Data Systems</h2>
-
-    <div class="card">
-      <h3>🚀 Sai Varun Nimmagadda Portfolio</h3>
-      <p>
-        AI Engineer | Making AI reliable, scalable, and worth deploying | Machine Learning Researcher 
-      </p>
-
-      <a class="btn" 
-         href="https://sai-varun-nimmagadda-portfolio-972669095315.us-west1.run.app" 
-         target="_blank">
-         View Live Portfolio 
-      </a>
-    </div>
-
-    <div class="links">
-      <a href="https://github.com/saivarun23" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/sai-varun-nimmagadda-6ab2581ba" target="_blank">LinkedIn</a>
-    </div>
-
-    <footer>
-      © 2026 Sai Varun Nimmagadda | AI Portfolio
-    </footer>
-  </div>
-</body>
-</html>
-
+  ],
+  "education": [
+    { "degree": "M.S. in Data Science", "school": "UMBC", "gpa": "4.0/4.0", "date": "Dec 2025" },
+    { "degree": "B.Tech in ECE", "school": "SRM University AP", "gpa": "8.98/10", "date": "May 2023" }
+  ],
+  "certifications": [
+    "Apache Spark™ Programming with Databricks — Databricks Certified (Nov 2024)",
+    "Research Team Lead — Managed 3 IEEE peer-reviewed papers under Prof. V. Sateesh Krishna Dhuli"
+  ]
+}
